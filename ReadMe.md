@@ -1,7 +1,8 @@
 ### 添加常用的依赖库的混淆文件
 
-* 开启混淆，设置 minifyEnabled true；
 [![](https://jitpack.io/v/zmemo/proguard.svg)](https://jitpack.io/#zmemo/proguard)
+
+* 开启混淆，设置 minifyEnabled true；
 * 添加依赖：
 ```
 	allprojects {
