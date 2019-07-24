@@ -1,6 +1,7 @@
 ### 添加常用的依赖库的混淆文件
 
 * 开启混淆，设置 minifyEnabled true；
+[![](https://jitpack.io/v/zmemo/proguard.svg)](https://jitpack.io/#zmemo/proguard)
 * 添加依赖：
 ```
 	allprojects {
@@ -10,7 +11,7 @@
 	}
   
   	dependencies {
-	        implementation 'com.github.zmemo:proguard:1.0.0'
+	        implementation 'com.github.zmemo:proguard:x.y.z'
 	}
 ```
 * 把项目中的实体类加入到 proguard-rules.pro 文件中，`一般为 -keep class com.memo.proguard.entity.** { *; }，` 或者使用 @Keep 注解这些实体类；
