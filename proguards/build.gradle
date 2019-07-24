@@ -1,0 +1,22 @@
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 27
+
+    defaultConfig {
+        minSdkVersion 14
+        versionCode 1
+        versionName "1.0.0"
+    }
+
+    buildTypes {
+        release {
+            consumerProguardFiles file('.').listFiles(new FilenameFilter() {
+                @Override
+                boolean accept(File file, String s) {
+                    return s.endsWith('.pro')
+                }
+            })
+        }
+    }
+}
