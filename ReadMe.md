@@ -9,7 +9,7 @@
 		}
 	}
   
-  dependencies {
+  	dependencies {
 	        implementation 'com.github.zmemo:proguard:1.0.0'
 	}
 ```
