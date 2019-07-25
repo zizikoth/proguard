@@ -11,3 +11,7 @@
 /build
 /captures
 .externalNativeBuild
+libs/
+proguard.jks
+release/app-release.apk
+release/output.json
